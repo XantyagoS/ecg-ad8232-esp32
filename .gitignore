@@ -1,0 +1,16 @@
+# Entorno de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Capturas de señal
+*.log
+ecg.csv
+
+# macOS
+.DS_Store
+
+# Compilados de Arduino
+build/
+*.bin
+*.elf
