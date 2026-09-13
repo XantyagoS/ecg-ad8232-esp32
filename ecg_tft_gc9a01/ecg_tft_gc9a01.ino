@@ -6,8 +6,8 @@
     LISTO     : aro azul,  "LISTO"             -> conectado, sin medir
     MIDIENDO  : aro verde, onda + FC + R-R     -> midiendo
 
-  Sigue enviando la senal por Serial, asi que el Serial Plotter y
-  ecg_term.py funcionan igual.
+  Sigue enviando la senal filtrada por Serial a 115200 bd, un numero
+  por linea, para verla en el Serial Plotter del Arduino IDE.
 
   ---------------------------------------------------------------
   CONEXIONES
